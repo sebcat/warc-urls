@@ -1,3 +1,6 @@
+// Reads WARC-Target-URIs from from WARC headers and outputs them to
+// standard output. Concurrent WARC record processing. Testbed for
+// github.com/sebcat/warc.
 package main
 
 import (
